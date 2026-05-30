@@ -158,4 +158,4 @@ def train_model():
 
 if __name__ == '__main__':
     create_tables()
-    app.run(debug=False)
+    app.run(debug=True, port=5000)

@@ -8,12 +8,14 @@
                 "Hey",
                 "Good morning",
                 "Good afternoon",
-                "Good evening"
+                "Good evening",
+                "Greetings",
+                "Hi there"
             ],
             "responses": [
-                "Hello! How can I help you today?",
-                "Hi there! Feel free to ask me anything about the college.",
-                "Hey! I'm here to assist you with your queries."
+                "Hello! Welcome to Loyola Academy Degree & PG College! How can I help you today?",
+                "Hi there! Feel free to ask me anything about Loyola Academy.",
+                "Hey! I'm here to assist you with your queries about Loyola Academy, Hyderabad!"
             ]
         },
         {
@@ -23,12 +25,14 @@
                 "Goodbye",
                 "See you later",
                 "Thank you, bye",
-                "Thanks for help"
+                "Thanks for help",
+                "See you",
+                "Exit"
             ],
             "responses": [
-                "Goodbye! Have a nice day!",
-                "See you later! Feel free to come back if you have more questions.",
-                "You're welcome! Have a great day ahead."
+                "Goodbye! Have a nice day! Visit https://loyolaacademy.ac.in for more info!",
+                "See you later! Feel free to come back if you have more questions about Loyola Academy!",
+                "You're welcome! Have a great day ahead!"
             ]
         },
         {
@@ -40,11 +44,31 @@
                 "When do admissions start?",
                 "Admission dates",
                 "Eligibility for admission",
-                "What are the admission criteria?"
+                "What are the admission criteria?",
+                "Loyola academy admission process",
+                "Loyola academy admissions 2025",
+                "Admissions in Loyola academy",
+                "How to apply for Loyola academy"
             ],
             "responses": [
-                "Admissions usually start in June. You can apply online through our official website. Eligibility varies by course - please check the specific course details.",
-                "The admission process involves filling an online application form, appearing for an entrance exam (if required), and a personal interview. Visit our admissions portal for more details."
+                "For Loyola Academy admissions, please visit the official admissions page: https://loyolaacademy.ac.in/admissions. Admissions usually start in May-June. Eligibility varies by course.",
+                "Check Loyola Academy's admission details here: https://loyolaacademy.ac.in/admissions. The process includes online application and counseling."
+            ]
+        },
+        {
+            "tag": "website",
+            "patterns": [
+                "What is the college website?",
+                "Loyola academy website",
+                "Official website",
+                "Website link",
+                "Give me the website",
+                "Can you tell the website",
+                "What's the college's website"
+            ],
+            "responses": [
+                "Loyola Academy Degree & PG College official website: https://loyolaacademy.ac.in",
+                "Visit https://loyolaacademy.ac.in for all official information about Loyola Academy!"
             ]
         },
         {
@@ -54,14 +78,16 @@
                 "List of courses",
                 "Available programs",
                 "What branches are there?",
-                "Engineering courses",
-                "Management courses",
+                "Courses at Loyola academy",
                 "UG courses",
-                "PG courses"
+                "PG courses",
+                "Loyola academy courses",
+                "Courses offered",
+                "Programs offered"
             ],
             "responses": [
-                "We offer various UG and PG courses including B.Tech, BBA, B.Com, MBA, M.Tech, and PhD programs in multiple specializations.",
-                "Our college provides courses in Engineering (CSE, ECE, ME, CE), Management, Commerce, and Science streams at both undergraduate and postgraduate levels."
+                "Loyola Academy offers various UG and PG courses in Arts, Commerce, Science, and Management. View all courses here: https://loyolaacademy.ac.in/courses-offered/",
+                "Check all courses offered by Loyola Academy: https://loyolaacademy.ac.in/courses-offered/"
             ]
         },
         {
@@ -70,30 +96,48 @@
                 "What is the fee structure?",
                 "College fees",
                 "Tuition fees",
-                "Hostel fees",
+                "Loyola academy fees",
                 "Fee payment",
-                "How much is the fees?",
-                "Scholarship for fees"
+                "How much fees",
+                "Fee details"
             ],
             "responses": [
-                "The fee structure varies by course. B.Tech fees are approximately ₹1,20,000 per year, MBA fees are ₹2,00,000 per year. Hostel fees are ₹80,000 per year including mess.",
-                "Please visit our official website for detailed fee structure. We also offer scholarships based on merit and financial need."
+                "For detailed fee structure of Loyola Academy, please contact the college administration or refer to the official website: https://loyolaacademy.ac.in",
+                "Please check Loyola Academy's official website or contact admissions office for fee details: https://loyolaacademy.ac.in"
             ]
         },
         {
-            "tag": "hostel",
+            "tag": "contact",
             "patterns": [
-                "Does college have hostel?",
-                "Hostel facilities",
-                "Hostel fees",
-                "Hostel availability",
-                "Hostel rules",
-                "Is hostel compulsory?",
-                "Hostel mess"
+                "Contact details",
+                "College phone number",
+                "Loyola academy contact",
+                "Email address",
+                "How to contact",
+                "Address",
+                "Phone number",
+                "What is the phone number",
+                "Contact information"
             ],
             "responses": [
-                "Yes, we have separate boys' and girls' hostels with 24/7 security, Wi-Fi, mess facilities, and recreational areas. Hostel accommodation is optional.",
-                "Our hostels are well-equipped with all modern amenities. You can apply for hostel during admission."
+                "Loyola Academy Contact Details:\nAddress: Loyola Academy, Old Alwal, Secunderabad - 500010, Telangana, India\nPhone: +91-40-27861100, 27864222\nEmail: principal@loyolaacademy.ac.in\nWebsite: https://loyolaacademy.ac.in",
+                "Contact Loyola Academy:\nPhone: +91-40-27861100, 27864222\nAddress: Old Alwal, Secunderabad - 500010\nWebsite: https://loyolaacademy.ac.in"
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "Where is the college located?",
+                "College address",
+                "Loyola academy location",
+                "Location",
+                "How to reach college",
+                "Where is Loyola academy",
+                "Where is it located"
+            ],
+            "responses": [
+                "Loyola Academy is located at Old Alwal, Secunderabad - 500010, Telangana, India. View on Google Maps: https://maps.app.goo.gl/uW9NQXa9Zf1H1y1Z6",
+                "Loyola Academy Address: Old Alwal, Secunderabad - 500010, Telangana. Google Maps: https://maps.app.goo.gl/uW9NQXa9Zf1H1y1Z6"
             ]
         },
         {
@@ -102,117 +146,14 @@
                 "How are the placements?",
                 "Placement record",
                 "Companies visiting",
-                "Average package",
-                "Highest package",
-                "Placement cell",
-                "Internship opportunities"
+                "Loyola academy placements",
+                "Training and placement",
+                "Placements",
+                "What about placements"
             ],
             "responses": [
-                "Our college has excellent placement records. Top companies like TCS, Infosys, Wipro, Amazon, Microsoft visit our campus. Average package is ₹6-8 LPA, highest package goes up to ₹25 LPA.",
-                "We have a dedicated placement cell that provides training and placement assistance. Many students get placed in reputed companies every year."
-            ]
-        },
-        {
-            "tag": "scholarships",
-            "patterns": [
-                "What scholarships are available?",
-                "Scholarship criteria",
-                "How to apply for scholarship",
-                "Merit scholarship",
-                "Government scholarship",
-                "Financial aid"
-            ],
-            "responses": [
-                "We offer merit-based scholarships, government scholarships, and need-based financial aid. Merit scholarships are given to students with excellent academic records.",
-                "Various scholarship schemes are available. Please check the scholarship section on our website or contact the admissions office."
-            ]
-        },
-        {
-            "tag": "transport",
-            "patterns": [
-                "Does college provide transport?",
-                "Bus facility",
-                "Transport fees",
-                "Bus routes",
-                "How to reach college?",
-                "College location"
-            ],
-            "responses": [
-                "Yes, we provide bus facilities from major locations in the city. There are multiple bus routes. Transport fees are ₹15,000 per year.",
-                "Our college is well-connected by buses. We have a fleet of buses covering all major areas. The transport facility is safe and reliable."
-            ]
-        },
-        {
-            "tag": "exams",
-            "patterns": [
-                "Exam schedule",
-                "When are exams?",
-                "Exam pattern",
-                "Syllabus",
-                "Mid sem exams",
-                "End sem exams",
-                "Results"
-            ],
-            "responses": [
-                "Exams are conducted as per the university schedule. Mid-sem exams are in October and March. End-sem exams are in December and May.",
-                "Please check the exam portal for detailed schedule and syllabus. Results are declared within 4-6 weeks after exams."
-            ]
-        },
-        {
-            "tag": "timetable",
-            "patterns": [
-                "What is the timetable?",
-                "Class schedule",
-                "Lecture timings",
-                "College timings",
-                "Working days"
-            ],
-            "responses": [
-                "College timings are 9:00 AM to 5:00 PM, Monday to Saturday. Specific class timetables are available on the student portal.",
-                "Classes start at 9 AM. Each department has its own timetable. You can check your timetable on the college website or notice board."
-            ]
-        },
-        {
-            "tag": "faculty",
-            "patterns": [
-                "How is the faculty?",
-                "Teaching staff",
-                "Professor details",
-                "Qualifications of teachers",
-                "Faculty experience"
-            ],
-            "responses": [
-                "Our faculty members are highly qualified and experienced. Most have PhDs from reputed institutions. They are dedicated to teaching and research.",
-                "We have an excellent team of faculty members who are experts in their fields. They provide quality education and mentorship."
-            ]
-        },
-        {
-            "tag": "library",
-            "patterns": [
-                "Is there a library?",
-                "Library facilities",
-                "Library hours",
-                "Books available",
-                "Digital library"
-            ],
-            "responses": [
-                "Yes, we have a well-stocked library with thousands of books, journals, and digital resources. Library is open from 8 AM to 8 PM.",
-                "Our library is a treasure trove of knowledge. It has a vast collection of books, e-books, research papers, and magazines."
-            ]
-        },
-        {
-            "tag": "campus",
-            "patterns": [
-                "Tell me about campus",
-                "Campus facilities",
-                "Infrastructure",
-                "Sports facilities",
-                "Canteen",
-                "Lab facilities"
-            ],
-            "responses": [
-                "Our campus is spread over 50 acres with state-of-the-art infrastructure. We have well-equipped labs, sports complex, canteen, auditorium, and much more.",
-                "The campus is eco-friendly and beautiful. We have all modern facilities including smart classrooms, computer labs, and sports facilities."
+                "For Loyola Academy placement details, visit: https://loyolaacademy.ac.in/training-placement/",
+                "Check Loyola Academy's Training & Placement Cell here: https://loyolaacademy.ac.in/training-placement/"
             ]
         }
     ]

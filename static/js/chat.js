@@ -15,6 +15,14 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+    function linkify(text) {
+        // Regular expression to match URLs
+        const urlPattern = /(https?:\/\/[^\s]+)/g;
+        return text.replace(urlPattern, function(url) {
+            return `<a href="${url}" target="_blank" rel="noopener noreferrer" style="color: #007bff; text-decoration: underline;">${url}</a>`;
+        });
+    }
+
     function sendMessage(message) {
         if (!message.trim()) return;
         
@@ -42,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
         messageDiv.className = `message ${type}-message`;
         
         const p = document.createElement('p');
-        p.textContent = text;
+        p.innerHTML = linkify(text.replace(/\n/g, '<br>'));
         messageDiv.appendChild(p);
         
         chatMessages.appendChild(messageDiv);
