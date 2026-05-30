@@ -1,0 +1,51 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const chatForm = document.getElementById('chatForm');
+    const userInput = document.getElementById('userInput');
+    const chatMessages = document.getElementById('chatMessages');
+    const suggestionBtns = document.querySelectorAll('.suggestion-btn');
+
+    chatForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        sendMessage(userInput.value);
+    });
+
+    suggestionBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            sendMessage(this.textContent);
+        });
+    });
+
+    function sendMessage(message) {
+        if (!message.trim()) return;
+        
+        addMessage(message, 'user');
+        userInput.value = '';
+        
+        fetch('/chat', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ message: message })
+        })
+        .then(response => response.json())
+        .then(data => {
+            addMessage(data.response, 'bot');
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    }
+
+    function addMessage(text, type) {
+        const messageDiv = document.createElement('div');
+        messageDiv.className = `message ${type}-message`;
+        
+        const p = document.createElement('p');
+        p.textContent = text;
+        messageDiv.appendChild(p);
+        
+        chatMessages.appendChild(messageDiv);
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
+});
